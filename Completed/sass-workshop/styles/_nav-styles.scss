@@ -15,9 +15,6 @@ nav {
   a {
     display: block;
     color: $link-color;
-    // @include style-AAGent(); => button-style-AAGent()
-    // padding: 10px 15px;
-
     text-decoration: none;
     &:hover {
       text-decoration: underline;
