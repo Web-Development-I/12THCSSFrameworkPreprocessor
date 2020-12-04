@@ -1,0 +1,31 @@
+// Basis stijlen
+// ***************
+
+body {
+  font-family: $font;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+body,
+header {
+  background-color: $primary-color;
+}
+
+.container {
+  background-color: $light;
+}
+
+header,
+.container {
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
